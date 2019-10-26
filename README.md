@@ -1,12 +1,12 @@
 # Coresets for Archetypal Analysis
 
-This repository contains the source code of the paper **Coresets for Archetypal Analysis**.
+This repository contains the source code of the paper [**Coresets for Archetypal Analysis**](https://github.com/smair/archetypalanalysis-coreset/raw/master/paper/paper.pdf).
 
 ## Abstract
 Archetypal analysis (AA) represents instances as linear mixtures of prototypes (the archetypes) that lie on the boundary of the convex hull of the data. Archetypes are thus  often better interpretable than factors computed by other matrix factorization techniques. However, the interpretability comes with high computational cost due to additional convexity-preserving constraints. In this paper, we propose efficient coresets for archetypal analysis. Theoretical guarantees are derived by showing that quantization errors of k-means upper bound archetypal analysis; the computation of a provable absolute-coreset can be performed in only two passes over the data. Empirically, we show that the coresets lead to improved performance on several data sets.
 
 <p align="center">
-  <img src="main.png" alt="visualization of the approach"/>
+  <img src="https://raw.githubusercontent.com/smair/archetypalanalysis-coreset/master/img/main.png" alt="visualization of the approach"/>
 </p>
 
 
